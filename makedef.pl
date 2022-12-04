@@ -635,6 +635,7 @@ if ($define{HAS_SIGNBIT}) {
 unless ($define{PERL_RC_STACK}) {
     ++$skip{$_} foreach qw(
 		    Perl_pp_wrap
+		    Perl_xs_wrap
 			 );
 }
 
