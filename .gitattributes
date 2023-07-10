@@ -1,3 +1,10 @@
+# Default to EBCDIC unless otherwise specified
+*                zos-working-tree-encoding=ibm-1047 git-encoding=iso8859-1
+
+# The git attributes and ignore files MUST be ASCII
+.gitattributes   zos-working-tree-encoding=iso8859-1 git-encoding=iso8859-1
+.gitignore       zos-working-tree-encoding=iso8859-1 git-encoding=iso8859-1
+
 .git_patch export-subst
 charclass_invlists.h linguist-generated
 embedvar.h linguist-generated
